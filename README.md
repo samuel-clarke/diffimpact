@@ -1,17 +1,18 @@
  ## Instructions for running DiffImpact
  1. Install and initialize [Anaconda3](https://docs.anaconda.com/anaconda/install/linux/)
  2. Clone the `diffimpact` repo from this page.
- 3. In the Anaconda `base` environment, change the working directory to this repo's folder and install the conda env with
+ 3. In the Anaconda `base` environment, change the working directory to this repo's folder, install the conda env, and activate it with
 ```
 cd diffimpact
 conda env create -f diffimpactenv.yml
+conda activate diffimpactenv
 ```
  4. From within the `diffimpact` directory, initialize and update the submodule for our ddsp fork with
  ```
  git submodule init
  git submodule update
 ```
- 5. Go to our DDSP fork with and install it in the pip environment with
+ 5. Go to our DDSP fork and install it in the pip environment with
  ```
  cd ddsp
  pip install -e .
@@ -32,7 +33,7 @@ conda env create -f diffimpactenv.yml
 Please check out our paper, ["DiffImpact: Differentiable Rendering and Identification of Impact Sounds"](https://openreview.net/forum?id=wVIqlSqKu2D), published at the Conference on Robot Learning (CoRL), 2021.
 
 If you use this code, please cite us:
-  ```
+```
   @inproceedings{clarke2022diffimpact,
 	  title={Diffimpact: Differentiable rendering and identification of impact sounds},
 	  author={Clarke, Samuel and Heravi, Negin and Rau, Mark and Gao, Ruohan and Wu, Jiajun and James, Doug and Bohg, Jeannette},
