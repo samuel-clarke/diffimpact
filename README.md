@@ -12,8 +12,22 @@
  `cd ddsp`
  `pip install -e .`
  `cd ../`
- 8. Install the conda environment as kernel to Jupyter notebooks with
+ 7. Install the conda environment as kernel to Jupyter notebooks with
   `python -m ipykernel install --user --name=diffimpactenv`
- 9. Run `jupyter notebook`
- 10. Make sure each Jupyter notebook is set to the `diffimpactenv` kernel before running code 
- 11. See `AnalysisBySynthesis.ipynb` and `SourceSeparation.ipynb` for the analysis by synthesis experiment and the source separation experiment, respectively.
+ 8. Run `jupyter notebook`
+ 9. Make sure each Jupyter notebook is set to the `diffimpactenv` kernel before running code 
+ 10. See `AnalysisBySynthesis.ipynb` and `SourceSeparation.ipynb` for the analysis by synthesis experiment and the source separation experiment, respectively.
+
+### Paper
+Please check out our paper, ["DiffImpact: Differentiable Rendering and Identification of Impact Sounds"](https://openreview.net/forum?id=wVIqlSqKu2D), published at the Conference on Robot Learning (CoRL), 2021.
+If you use this code, please cite us:
+  ```
+  @inproceedings{clarke2022diffimpact,
+	  title={Diffimpact: Differentiable rendering and identification of impact sounds},
+	  author={Clarke, Samuel and Heravi, Negin and Rau, Mark and Gao, Ruohan and Wu, Jiajun and James, Doug and Bohg, Jeannette},
+	  booktitle={Conference on Robot Learning},
+	  pages={662--673},
+	  year={2022},
+	  organization={PMLR}
+}
+```
