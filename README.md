@@ -28,7 +28,7 @@ conda env create -f diffimpactenv.yml
  8. Make sure each Jupyter notebook is set to the `diffimpactenv` kernel before running code 
  9. See `AnalysisBySynthesis.ipynb` and `SourceSeparation.ipynb` for the analysis by synthesis experiment and the source separation experiment, respectively.
 
-### Paper
+## Paper
 Please check out our paper, ["DiffImpact: Differentiable Rendering and Identification of Impact Sounds"](https://openreview.net/forum?id=wVIqlSqKu2D), published at the Conference on Robot Learning (CoRL), 2021.
 
 If you use this code, please cite us:
