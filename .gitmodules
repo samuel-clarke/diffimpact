@@ -1,0 +1,3 @@
+[submodule "ddsp"]
+	path = ddsp
+	url = git@github.com:samuel-clarke/ddsp.git
